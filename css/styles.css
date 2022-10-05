@@ -3,23 +3,45 @@ body {
   text-align: center;
   font-family: "Merriweather", serif;
   background-color: #222831;
-  color: antiquewhite;
+  color: #eeeeee;
 }
 
 h1 {
   margin-top: 0;
-  font-family: "Silkscreen", cursive;
+  font-family: sans-serif;
   font-size: 90px;
   margin: 30px auto 0 auto;
+  line-height: 2;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  color: #d65a31;
   font-size: 40px;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
+  color: #d65a31;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 25px auto 20px;
+  color: #d65a31;
+}
+
+hr {
+  border-color: #eeeeee;
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 10%;
+  margin-top: 40px;
+}
+
+p {
+  line-height: 2;
 }
 
 .pro {
@@ -31,24 +53,65 @@ h3 {
   right: 575px;
   top: 50px;
 }
+.top-middle-cloud {
+  position: absolute;
+  left: 500px;
+  top: 400px;
+}
+
+.middle-cloud {
+  position: absolute;
+  right: 750px;
+  bottom: 450px;
+}
 
 .bottom-cloud {
   position: absolute;
-  left: 600px;
+  left: 700px;
   bottom: 300px;
 }
 
+.mountain {
+  width: 50%;
+  margin-top: 65px;
+  color: #393e46;
+}
+
 .profile-pic {
+  margin: 15px auto 0px;
   width: 200px;
 }
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
 .computer-icon {
-  width: 100px;
-  filter: invert(100%);
+  width: 20%;
+  float: left;
+  margin-right: 10px;
+}
+
+.software-dev-txt {
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.artisan-txt {
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.program-knowledge {
+  width: 40%;
+  padding-top: 15px;
+  padding-left: 10%;
 }
 .paintbrush-icon {
   padding-top: 10px;
-  width: 100px;
-  filter: invert(100%);
+  width: 20%;
+  float: right;
 }
 
 .program-knowledge {
@@ -65,15 +128,28 @@ h3 {
 }
 
 .bottom-container {
+  position: relative;
+  background-color: #393e46;
+  height: 150px;
 }
 
 .email-icon {
   filter: invert(100%);
+  margin: 10px auto 50px;
 }
 
-.footer-link {
-  padding: 0 auto;
+.contact-logo {
+  width: 60px;
+  padding: 25px 20px;
 }
-.footer-sep {
-  width: 50px;
+
+.link-cluster {
+  position: absolute;
+  width: 400px;
+  left: 39.5%;
+}
+
+.copyright {
+  margin: 5px auto 0;
+  color: #d65a31;
 }
