@@ -1,4 +1,5 @@
-# Personal_Site
+
+# Personal_Site (OBSOLETE/RETIRED)
 The home of my website protfollio; while showcasing the progress of my Web Development Process.
 
 This project follows along Angela Yu's 2022 Udemy Complete Web Development course which covers:
